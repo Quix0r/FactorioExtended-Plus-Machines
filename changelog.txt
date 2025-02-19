@@ -1,4 +1,17 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 19-02-2025
+  Fixes:
+    - bumped version to 2.0.32
+    - module_specification has been reworked/removed (?)
+    - hr_version was removed, all images are now HR!
+    - animation.layers has been moved to graphics_set
+    - changed "result" (simple string) to "results" (table)
+    - emissions_per_minute must now be a table with {pollution = x} and not raw x only
+    - there is no support for short-hand arrays {"item-name", n}, you need to always use full table
+    - effectivity-module* was all renamed to efficiency-module*
+    - advanced-electronics-2 -> processing-unit
+---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 25-10-2024
   Changes:

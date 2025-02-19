@@ -6,12 +6,12 @@ drill.result = drill.name
 drill.energy_required = 4
 drill.enabled = false
 drill.ingredients = {
-    {"electric-mining-drill-mk2", 1},
-    {"processing-unit", 3},
-    {"titanium-alloy", 10},
-    {"speed-module-2", 2},
-    {"effectivity-module-2", 2},
-    {"pollution-filter", 4}
+    {type="item", name="electric-mining-drill-mk2", amount=1},
+    {type="item", name="processing-unit", amount=3},
+    {type="item", name="titanium-alloy", amount=10},
+    {type="item", name="speed-module-2", amount=2},
+    {type="item", name="efficiency-module-2", amount=2},
+    {type="item", name="pollution-filter", amount=4}
 }
 
 data:extend({drill})
