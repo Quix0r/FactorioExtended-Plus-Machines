@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 06-03-2025
+  Fixes:
+    - "result" is no longer supported in recipes, needs to be "results" with type, name and amount
+    - fe+ core is now 2.0.3 (productity modules allowed in intermediate products)
+---------------------------------------------------------------------------------------------------
 Version: 2.0.2
 Date: 23-02-2025
   Features:

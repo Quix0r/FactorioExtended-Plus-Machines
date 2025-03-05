@@ -1,8 +1,9 @@
 local drill = table.deepcopy(data.raw.recipe["electric-mining-drill"])
+
 drill.name = "electric-mining-drill-mk3"
 drill.expensive = nil
 drill.normal = nil
-drill.result = drill.name
+drill.results = {{type="item", name=drill.name, amount=1}}
 drill.energy_required = 4
 drill.enabled = false
 drill.ingredients = {
