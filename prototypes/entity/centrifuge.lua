@@ -19,15 +19,15 @@ c2.energy_usage = "450kW"
 c2.module_slots = 4
 
 if c2.idle_animation then
-    c2.idle_animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-C-mk2.png"
-    c2.idle_animation.layers[3].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-B-mk2.png"
-    c2.idle_animation.layers[5].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-A-mk2.png"
+    c2.idle_animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-C-mk2.png"
+    c2.idle_animation.layers[3].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-B-mk2.png"
+    c2.idle_animation.layers[5].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-A-mk2.png"
 end
 
 if c2.animation then
-    c2.graphics_set.animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-C-light-mk2.png"
-    c2.graphics_set.animation.layers[2].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-B-light-mk2.png"
-    c2.graphics_set.animation.layers[3].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-A-light-mk2.png"
+    c2.graphics_set.animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-C-light-mk2.png"
+    c2.graphics_set.animation.layers[2].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-B-light-mk2.png"
+    c2.graphics_set.animation.layers[3].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-A-light-mk2.png"
 end
 
 local c3 = table.deepcopy(data.raw["assembling-machine"]["centrifuge"])
@@ -42,15 +42,15 @@ c3.energy_usage = "550kW"
 c3.module_slots = 4
 
 if c3.idle_animation then
-    c3.idle_animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-C-mk3.png"
-    c3.idle_animation.layers[3].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-B-mk3.png"
-    c3.idle_animation.layers[5].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-A-mk3.png"
+    c3.idle_animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-C-mk3.png"
+    c3.idle_animation.layers[3].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-B-mk3.png"
+    c3.idle_animation.layers[5].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-A-mk3.png"
 end
 
 if c3.animation then
-    c3.graphics_set.animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-C-light-mk3.png"
-    c3.graphics_set.animation.layers[2].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-B-light-mk3.png"
-    c3.graphics_set.animation.layers[3].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-A-light-mk3.png"
+    c3.graphics_set.animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-C-light-mk3.png"
+    c3.graphics_set.animation.layers[2].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-B-light-mk3.png"
+    c3.graphics_set.animation.layers[3].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-A-light-mk3.png"
 end
 
 data:extend({c2, c3})

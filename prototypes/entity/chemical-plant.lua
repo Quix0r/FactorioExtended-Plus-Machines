@@ -19,7 +19,7 @@ cp2.energy_usage = "250kW"
 cp2.module_slots = 4
 
 for _, direction in pairs({"north", "east", "south", "west"}) do
-    cp2.graphics_set.animation[direction].layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. cp2.name .. "/hr-" .. cp2.name .. ".png"
+    cp2.graphics_set.animation[direction].layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. cp2.name .. "/" .. cp2.name .. ".png"
 end
 
 local cp3 = table.deepcopy(data.raw["assembling-machine"]["chemical-plant"])
@@ -36,7 +36,7 @@ cp3.energy_usage = "290kW"
 cp3.module_slots = 4
 
 for _, direction in pairs({"north", "east", "south", "west"}) do
-    cp3.graphics_set.animation[direction].layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. cp3.name .. "/hr-" .. cp3.name .. ".png"
+    cp3.graphics_set.animation[direction].layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. cp3.name .. "/" .. cp3.name .. ".png"
 end
 
 data:extend({cp2, cp3})

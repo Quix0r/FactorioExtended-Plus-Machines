@@ -15,6 +15,6 @@ radar2.minable.result = radar2.name
 radar2.max_distance_of_sector_revealed = 30
 radar2.max_distance_of_nearby_sector_revealed = 7
 radar2.energy_usage = "350kW"
-radar2.pictures.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/radar/hr-radar-mk2.png"
+radar2.pictures.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/radar/radar-mk2.png"
 
 data:extend({radar2})

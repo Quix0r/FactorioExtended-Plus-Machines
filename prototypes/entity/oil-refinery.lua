@@ -19,7 +19,7 @@ or2.energy_usage = "460kW"
 or2.module_slots = 4
 
 for _, direction in pairs({"north", "east", "south", "west"}) do
-    or2.graphics_set.animation[direction].layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. or2.name .. "/hr-" .. or2.name .. ".png"
+    or2.graphics_set.animation[direction].layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. or2.name .. "/" .. or2.name .. ".png"
 end
 
 local or3 = table.deepcopy(data.raw["assembling-machine"]["oil-refinery"])
@@ -36,7 +36,7 @@ or3.energy_usage = "500kW"
 or3.module_slots = 4
 
 for _, direction in pairs({"north", "east", "south", "west"}) do
-    or3.graphics_set.animation[direction].layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. or3.name .. "/hr-" .. or3.name .. ".png"
+    or3.graphics_set.animation[direction].layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. or3.name .. "/" .. or3.name .. ".png"
 end
 
 data:extend({or2, or3})

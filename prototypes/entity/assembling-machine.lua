@@ -18,11 +18,11 @@ am4.crafting_speed = 2
 am4.energy_source.emissions_per_minute = {pollution = 1}
 am4.energy_usage = "417kW"
 am4.module_slots = 4
-am4.graphics_set.animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am4.name .. "/hr-" .. am4.name .. ".png"
+am4.graphics_set.animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am4.name .. "/" .. am4.name .. ".png"
 for _, direction in pairs({"north", "east", "south", "west"}) do
     local short = string.upper(string.sub(direction, 1, 1))
-    am4.fluid_boxes[1].pipe_picture[direction].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am4.name .. "/hr-" .. am4.name .. "-pipe-" .. short .. ".png"
-    am4.fluid_boxes[2].pipe_picture[direction].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am4.name .. "/hr-" .. am4.name .. "-pipe-" .. short .. ".png"
+    am4.fluid_boxes[1].pipe_picture[direction].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am4.name .. "/" .. am4.name .. "-pipe-" .. short .. ".png"
+    am4.fluid_boxes[2].pipe_picture[direction].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am4.name .. "/" .. am4.name .. "-pipe-" .. short .. ".png"
 end
 
 local am5 = table.deepcopy(data.raw["assembling-machine"]["assembling-machine-3"])
@@ -37,11 +37,11 @@ am5.crafting_speed = 3
 am5.energy_source.emissions_per_minute = {pollution = 0.5}
 am5.energy_usage = "460kW"
 am5.module_slots = 4
-am5.graphics_set.animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am5.name .. "/hr-" .. am5.name .. ".png"
+am5.graphics_set.animation.layers[1].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am5.name .. "/" .. am5.name .. ".png"
 for _, direction in pairs({"north", "east", "south", "west"}) do
     local short = string.upper(string.sub(direction, 1, 1))
-    am5.fluid_boxes[1].pipe_picture[direction].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am5.name .. "/hr-" .. am5.name .. "-pipe-" .. short .. ".png"
-    am5.fluid_boxes[2].pipe_picture[direction].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am5.name .. "/hr-" .. am5.name .. "-pipe-" .. short .. ".png"
+    am5.fluid_boxes[1].pipe_picture[direction].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am5.name .. "/" .. am5.name .. "-pipe-" .. short .. ".png"
+    am5.fluid_boxes[2].pipe_picture[direction].filename = "__FactorioExtended-Plus-Machines__/graphics/entity/" .. am5.name .. "/" .. am5.name .. "-pipe-" .. short .. ".png"
 end
 
 data:extend({am4, am5})
