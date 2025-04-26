@@ -1,6 +1,6 @@
 {
     "name": "FactorioExtended-Plus-Machines",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "factorio_version": "2.0",
     "title": "FactorioExtended Plus-Machines",
     "author": "roland77, rubesaca forked from jimmyjon711 (Original Author: Nath Gamer)",
@@ -8,6 +8,7 @@
     "description": "",
     "dependencies": [
         "base >= 2.0.42",
+        "FactorioExtended-Plus-Assets >= 0.0.1",
         "FactorioExtended-Plus-Core >= 2.0.4",
         "?FactorioExtended-Plus-Transport >= 2.0.2"
     ]
