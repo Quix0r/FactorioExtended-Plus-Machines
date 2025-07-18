@@ -1,4 +1,4 @@
-local Constant = require("__FactorioExtendedPlus-Core__/constant")
+local Constant = require("__FactorioExtended-Plus-Core__/constant")
 
 local function change_animation(graphics, tint)
     for _, direction in pairs({"north", "east", "south", "west"}) do

@@ -47,6 +47,7 @@ data:extend(
             ingredients = {
                 {type="item", name="speed-module", amount=2},
                 {type="item", name="assembling-machine-3", amount=2},
+                {type="item", name="advanced-circuit", amount=10},
                 {type="item", name="pollution-filter", amount=1}
             },
             results = {{type="item", name="assembling-machine-4", amount=1}}
@@ -60,6 +61,7 @@ data:extend(
                 {type="item", name="speed-module-2", amount=2},
                 {type="item", name="efficiency-module-2", amount=2},
                 {type="item", name="assembling-machine-4", amount=2},
+                {type="item", name="processing-unit", amount=5},
                 {type="item", name="pollution-filter", amount=1}
             },
             results = {{type="item", name="assembling-machine-5", amount=1}}

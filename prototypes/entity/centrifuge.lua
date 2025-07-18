@@ -1,4 +1,4 @@
-local Constant = require("__FactorioExtendedPlus-Core__/constant")
+local Constant = require("__FactorioExtended-Plus-Core__/constant")
 
 -- centrifuge                                       mk1         mk2         mk3
 -- max_health                                       350         400         450
