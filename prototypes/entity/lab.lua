@@ -1,4 +1,4 @@
-local Constant = require("constant")
+local Constant = require("__FactorioExtendedPlus-Core__/constant")
 
 local lab2 = table.deepcopy(data.raw["lab"]["lab"])
 lab2.name = "lab-mk2"

@@ -1,4 +1,4 @@
-local Constant = require("constant")
+local Constant = require("__FactorioExtendedPlus-Core__/constant")
 
 local drill2 = table.deepcopy(data.raw.item["electric-mining-drill"])
 drill2.icons = {{icon = drill2.icon, icon_size = drill2.icon_size, icon_mips = drill2.icon_mipmaps, tint = Constant.green_tint}}
