@@ -1,11 +1,3 @@
--- assembling-machine                               mk1         mk2         mk3         mk4         mk5
--- max_health                                       300         350         400         450         500
--- crafting_speed                                   0.5         0.75        1.25        2           3
--- energy_source.emissions_per_minute               4           3           2           1           0.5
--- energy_usage                                     75kW        150kW       375kW       417kW       460kW
--- module_slots                                     2           4           4           4
---
-
 local am4 = table.deepcopy(data.raw["assembling-machine"]["assembling-machine-3"])
 am4.name = "assembling-machine-4"
 am4.icon = "__FactorioExtended-Plus-Assets__/machines/icons/" .. am4.name .. ".png"
@@ -17,7 +9,7 @@ am4.next_upgrade = "assembling-machine-5"
 am4.crafting_speed = 2
 am4.energy_source.emissions_per_minute = {pollution = 1}
 am4.energy_usage = "417kW"
-am4.module_slots = 4
+am4.module_slots = 6
 am4.graphics_set.animation.layers[1].filename = "__FactorioExtended-Plus-Assets__/machines/entity/" .. am4.name .. "/" .. am4.name .. ".png"
 for _, direction in pairs({"north", "east", "south", "west"}) do
     local short = string.upper(string.sub(direction, 1, 1))
@@ -36,7 +28,7 @@ am5.next_upgrade = nil
 am5.crafting_speed = 3
 am5.energy_source.emissions_per_minute = {pollution = 0.5}
 am5.energy_usage = "460kW"
-am5.module_slots = 4
+am5.module_slots = 8
 am5.graphics_set.animation.layers[1].filename = "__FactorioExtended-Plus-Assets__/machines/entity/" .. am5.name .. "/" .. am5.name .. ".png"
 for _, direction in pairs({"north", "east", "south", "west"}) do
     local short = string.upper(string.sub(direction, 1, 1))

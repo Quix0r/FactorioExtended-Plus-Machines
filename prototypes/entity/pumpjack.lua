@@ -1,10 +1,3 @@
--- pumpjack                                 mk1         mk2
--- mining_speed                             1           2
--- energy_usage                             90          120
--- emissions_per_minute                     10          8
--- module_slots                             2           4
--- max_health                               200         400
---
 local pj2 = table.deepcopy(data.raw["mining-drill"]["pumpjack"])
 pj2.name = "pumpjack-mk2"
 pj2.next_upgrade = nil

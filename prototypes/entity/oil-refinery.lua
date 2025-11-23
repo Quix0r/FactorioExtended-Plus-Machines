@@ -1,10 +1,3 @@
--- oil-refinery                                     mk1         mk2         mk3
--- max_health                                       350         400         450
--- crafting_speed                                   1           2           4
--- energy_source.emissions_per_minute               6           5           4
--- energy_usage                                     420kW       460kW       500kW
--- module_slots                                     3           4           4
---
 local or2 = table.deepcopy(data.raw["assembling-machine"]["oil-refinery"])
 or2.name = "oil-refinery-mk2"
 or2.icon = "__FactorioExtended-Plus-Assets__/machines/icons/" .. or2.name .. ".png"
@@ -33,7 +26,7 @@ or3.next_upgrade = nil
 or3.crafting_speed = 4
 or3.energy_source.emissions_per_minute = {pollution = 4}
 or3.energy_usage = "500kW"
-or3.module_slots = 4
+or3.module_slots = 6
 
 for _, direction in pairs({"north", "east", "south", "west"}) do
     or3.graphics_set.animation[direction].layers[1].filename = "__FactorioExtended-Plus-Assets__/machines/entity/" .. or3.name .. "/" .. or3.name .. ".png"

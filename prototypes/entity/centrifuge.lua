@@ -1,12 +1,5 @@
 local Constant = require("__FactorioExtended-Plus-Core__/constant")
 
--- centrifuge                                       mk1         mk2         mk3
--- max_health                                       350         400         450
--- crafting_speed                                   1           1.5         3
--- energy_source.emissions_per_minute               4           3           2
--- energy_usage                                     350kW       450kW       550kW
--- module_slots                                     2           4           4
---
 local c2 = table.deepcopy(data.raw["assembling-machine"]["centrifuge"])
 c2.name = "centrifuge-mk2"
 c2.icons = {{icon = c2.icon, icon_size = c2.icon_size, icon_mipmaps = c2.icon_mipmaps, tint = Constant.green_tint}}
@@ -39,7 +32,7 @@ c3.minable.result = c3.name
 c3.crafting_speed = 3
 c3.energy_source.emissions_per_minute = {pollution = 2}
 c3.energy_usage = "550kW"
-c3.module_slots = 4
+c3.module_slots = 6
 
 if c3.idle_animation then
     c3.idle_animation.layers[1].filename = "__FactorioExtended-Plus-Assets__/machines/entity/centrifuge-mk3/centrifuge-C-mk3.png"

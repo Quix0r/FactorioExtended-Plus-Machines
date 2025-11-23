@@ -1,4 +1,4 @@
-for index, force in pairs(game.forces) do
+for _, force in pairs(game.forces) do
   local technologies = force.technologies
   local recipes = force.recipes
   
@@ -11,4 +11,4 @@ for index, force in pairs(game.forces) do
     recipes["lab-mk3"].enabled = true
     recipes["lab-mk3"].reload()
   end
-end 
+end
